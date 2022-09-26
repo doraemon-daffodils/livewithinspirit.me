@@ -25,19 +25,19 @@ import { isDark, toggleDark } from '~/logic'
       <router-link to="/" flex="1">
         <Logo />
       </router-link>
-
+    
       <router-link to="/notes">
-        <ph-note />
+         <ph-note />  Twitter
       </router-link>
+
       <router-link to="/projects">
         <ri-git-repository-line />
       </router-link>
-      <a href="https://github.com/wheatjs" target="_blank" rel="noreferrer noopener">
-        <mdi-github />
-      </a>
+      
       <a href="https://twitter.com/wheatjs" target="_blank" rel="noreferrer noopener">
         <mdi-twitter />
       </a>
+      
       <a cursor="pointer" @click="toggleDark">
         <carbon-moon v-if="isDark" />
         <carbon-sun v-else />

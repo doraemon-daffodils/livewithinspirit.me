@@ -25,7 +25,7 @@
         </template>
         Take a look out some of my short notes.
       </Card>
-      <Card label="Projects" to="/projects">
+      <Card label="Proje" to="/projects">
         <template #icon>
           <ri-git-repository-line />
         </template>
