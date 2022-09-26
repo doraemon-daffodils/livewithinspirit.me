@@ -19,18 +19,19 @@
       gap="4"
       content="center"
     >
+    <Card label="My Inspirations" to="/inspiration">
+        <template #icon>
+          <ph-address-book />
+        </template>
+        Sudha Murthy, Malala Yousafzai, Kailash Satyarthi
+      </Card>
       <Card label="Notes" to="/notes">
         <template #icon>
           <ph-note />
         </template>
         Take a look out some of my short notes.
       </Card>
-      <Card label="Proje" to="/projects">
-        <template #icon>
-          <ri-git-repository-line />
-        </template>
-        Check out my personal projects that I've been working on.
-      </Card>
+      
     </div>
   </div>
 </template>
@@ -40,3 +41,5 @@ html .about a {
   text-decoration-color: #db2777 !important;
 }
 </style>
+
+

@@ -25,16 +25,19 @@ import { isDark, toggleDark } from '~/logic'
       <router-link to="/" flex="1">
         <Logo />
       </router-link>
-    
-      <router-link to="/notes">
-         <ph-note />  Twitter
+       
+    <router-link to="/">
+        Home
+      </router-link>
+      <router-link to="/inspiration">
+        My Inspirations
       </router-link>
 
-      <router-link to="/projects">
-        <ri-git-repository-line />
+      <router-link to="/notes">
+        My Notes
       </router-link>
-      
-      <a href="https://twitter.com/wheatjs" target="_blank" rel="noreferrer noopener">
+
+      <a href="https://twitter.com" target="_blank" rel="noreferrer noopener">
         <mdi-twitter />
       </a>
       
