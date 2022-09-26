@@ -1,6 +1,6 @@
 ---
 title: Computable Contracts
-date: October 8 2022
+date: August 14 2022
 author:  Ashwasti 
 twitter: ashwasti
 gravatar: d2eccc131bb7a5815d1ef3695ad30b05
