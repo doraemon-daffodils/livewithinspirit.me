@@ -12,3 +12,10 @@ public: true
 When contract terms and conditions are represented in highly structured data, computers are able to process them automatically with high accuracy, significantly reducing transaction costs and introducing a host of other benefits.
 
 The Stanford Computable Contracts Initiative addresses actual use cases to create contracts in computable form.
+
+## Court System in India
+
+
+![](/images/court-system.jpg)
+![](/images/criminal-courts.jpg)
+![](/images/civil-court.jpg)
